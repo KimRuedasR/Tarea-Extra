@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarea Extra</title>
+</head>
+<body>
+    <p>1. Crea una función que permita mostrar n objetos dinámicamente</p>
+    <button id="objects">Mostrar n Objetos</button>
+    <div id="circulos"></div><br><br>
+    <p>2. Crea una función que elimine divs que midan más de 50 pixeles</p>
+    <button id="divs">Eliminar Divs</button>
+    <div class="box" style="width: 30px; background: blue;"></div>
+    <div class="box" style="width: 40px; background: red;"></div>
+    <div class="box" style="width: 100px; background: green;"></div>
+    <div class="box" style="width: 80px; background: yellow;"></div>
+    <div class="box" style="width: 30px; background: orange;"></div>
+    <!-- Se agrega un div negro -->
+    <div class="box" style="width: 120px; background: black;"></div>
+    <p>3. Crea una función que aumente el contador cada que hagas click en un btn</p>
+    <p>Nota, si el número se pasa de 20, reiniciar el contador</p>
+    <!-- Contador  -->
+    <h3>Contador: <div id="contador"></div></h3>
+    <button id="clicks">Contador +1</button>
+    <button id="clicksReset">Resetear contador</button>
+    <p>4. Pintar el div con el color seleccionado en el select</p>
+    <select id="colors">
+        <!-- Cambio de los valores por RGB -->
+        <option value="rgb(255, 0, 0)">RGB-Red</option>
+        <option value="rgb(0, 255, 0)">RGB-Green</option>
+        <option value="rgb(0, 0, 255)">RGB-Blue</option>
+    </select>
+    <div id="canva"></div>
+    <p>5. En la siguiente lista interactua con cada elemento li y de acuerdo a la longitud de su contenido, 
+        aplica lo siguiente</p>
+    <p>Si es mayor a 10, coloca el texto en cursiva</p>
+    <p>Si es mayor a 15, coloca el texto en negritas</p>
+    <p>Si es menor a 25 pero mayor a 20, mueve el elemento a una nueva lista</p>
+    <p>Nota. Se puede aplicar más de una modificación</p>
+    <ul>
+        <li class="game">The Legend of Zelda: Ocarina of time</li>
+        <li class="game">Plants vs Zombies</li>
+        <li class="game">BioShock</li>
+        <li class="game">The Last of Us</li>
+        <li class="game">Disco Elysium: The Final Cut</li>
+        <li class="game">Texto largoooooooooooo</li>
+    </ul>
+    <ul>
+        <li class="game2"></li>
+        <li class="game2"></li>
+        <li class="game2"></li>
+        <li class="game2"></li>
+        <li class="game2"></li>
+    </ul>
+<script src="index.js"></script>
+</body>
+</html>
